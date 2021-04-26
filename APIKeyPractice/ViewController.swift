@@ -6,11 +6,15 @@
 //
 
 import UIKit
+import Keys
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let key = APIKeyPracticeKeys().tMDBAPIKey
+        
+        
         // Do any additional setup after loading the view.
     }
 
